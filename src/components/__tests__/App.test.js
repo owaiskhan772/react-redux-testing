@@ -6,7 +6,7 @@ import CommentBox from 'components/CommentBox'
 import CommentList from 'components/CommentList'
 
 let wrapper;
-beforeEach(() => { // func: beforeEach calls before every single test in current test page
+beforeEach(() => { // func: beforeEach is called before every single test in current test page
     wrapper = shallow(<App />)
 })
 
